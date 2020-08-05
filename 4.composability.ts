@@ -61,10 +61,13 @@ function findFirstOneCharacterStringComposable(strings: string[]) : string | und
     return first(strings, str => str.length == 1);
 }
 
+findFirstNegativeNumberComposable([1,2,3,4])
 /*
 Think. Compare and contrast the:
 1) Non-composable implementation
+- Need to write whole function again if you want to use similiar function
 2) with the Composable implementation
+- Reduce the redundancy and make it easier to maintain but has more complex
 
 Question:
 1) What did you learn from this problem? Why would we want to refactor the code to be
