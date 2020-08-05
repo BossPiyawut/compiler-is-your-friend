@@ -14,9 +14,10 @@ to set the `divisor` member variable.
 
 Questions:
 1) What did you learn from this exercise?
+- Private variable is only accessible by object
 */
 class SafeDivisor {
-    divisor: number = 1;
+    private divisor: number = 1;
 
     setDivisor(value: number) {
         if (value == 0) {
